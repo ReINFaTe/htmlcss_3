@@ -1,0 +1,49 @@
+footer {
+    background: #767676;
+    padding-top: 50px;
+    margin-top: auto;
+    color: #ffffff;
+}
+.footerWrapper{
+    display: flex;
+    width: 980px;
+    margin-bottom: 53px;
+    margin: 0 auto 53px auto;
+}
+.footer-company{
+    margin-right: auto;
+}
+.footer-menu > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-menu > ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-devs > img {
+    height: 38px;
+    width: 36px;
+    object-fit: fill;
+    margin-top: 10%;
+}
+.footer-devs{
+    height: 50%;
+    margin-left: auto;
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "a c";
+}
+.footer-devs > img {
+    grid-area: a;
+    margin-right: 9px;
+}
+.footer-devs > .devs-link {
+    grid-area: b;
+}
+.footer-devs > .devs-name{
+    grid-area: c;
+}

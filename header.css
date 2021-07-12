@@ -1,0 +1,78 @@
+
+header{
+    display: flex;
+    background: #dcdcdc;
+    padding: 10px;
+    color: #767676;
+    height: 210px;
+}
+.headerWrapper{
+    display: flex;
+    width: 980px;
+    margin: auto auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logoblock,
+.logoblock:active {
+    text-decoration: none;
+    color: inherit;
+}
+.logoblock {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo{
+    align-self: center;
+    margin-right: auto;
+    display: grid;
+    width: 273px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100px 173px;
+    grid-template-areas: 
+    "a b"
+    "a c";
+}
+.logo > .logopic {
+    height: 100px;
+    width: 100px;
+    grid-area: a;
+}
+.logo > .name {
+    grid-area: b;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo > .desk{
+    grid-area: c;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.contacts{
+    font-family: 'Open Sans Condensed';
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #767676;
+    align-self: center;
+    text-align: right;
+    margin-left: auto;
+}
+.contacts > a {
+    text-decoration: none;
+}
+#feedback {
+    font-family: 'PT Sans';
+    font-size: 24px;
+    line-height: 46px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #767676;
+    text-decoration: underline;
+}

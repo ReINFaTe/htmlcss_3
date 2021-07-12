@@ -1,0 +1,12 @@
+.breadcrumbs {
+    width: 980px;
+    margin: auto auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #767676;
+}
+.breadcrumbs > span:not(:last-child)::after {
+    display: inline;
+    content: " /";
+    text-decoration: none;
+}
